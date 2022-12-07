@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  background-image: url("piramidemaias.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #293447;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.info {
+  display: inline;
+}
+
+.tit {
+  font-size: 0.8em;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.importante {
+  color: red; 
+  font-family: 'Roboto', sans-serif;
+  background-color: aliceblue; 
+  padding: 2px;
+}
+
+.inputBox {
+  background: #323e55;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1.1em;
+  width: 310px;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.inputBox:valid,
+.inputBox:focus {
+  color: white;
+  background: #323e55;
+}
+
+.send {
+  display: none;
+}
+
+.checkCorrect {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: #ffffff
+}
+
+.checkWrong {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: #ffffff
+}
+
+.checkTip {
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.tip {
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bot {
+  color: grey;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.last {
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.small {
+  font-size: 0.8em;
+}
+
+.medium {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #66e870;
+}
+
+.big {
+  font-size: 1.2em;
+}
+
+.red {
+  color: #ff5555;
+}
+
+.grn {
+  color: #66e870;
+}
+
+.right {
+  background-color: #66e870;
+  border: 1px solid #66e871a4;
+}
+
+.dica {
+  background-color: #323e55;;
+  border: 1px solid white;
+}
+
+.wrong {
+  background-color: #ff555596;
+  border: 1px solid #ff5555;
+}
+
+.howTo {
+  background-color: #323e55;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 0.9em;
+  width: 310px;
+  line-height: 20px;
+}
+
+.howTo span {
+  color: #909090;
+  font-size: 0.8em;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 15px 35px;
+  background: rgba(0, 0, 0, .1);
+  color: #F4F0E6;
+}
+footer a {
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: 14px;
+  }
+
+  footer img {
+    width: 25px;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  footer span {
+    max-width: 230px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  footer {
+    font-size: 12px;
+  }
+
+  footer span {
+    max-width: 190px;
+  }
+}

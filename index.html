@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Roboto: wght @100;400 & display=swap" rel="stylesheet">
+    <link href="favIcon.png" rel="shortcut icon" type="image/x-icon" />
+    <title>Maias</title>
+  </head>
+  <body>
+    <div>
+      <p class="title">Maias</p>
+      <P>
+        <audio autoplay="autoplay" controls="controls">
+          <source src="Ketzal - Musica Maya.mp3" type="audio/mp3"/>
+        </audio>
+      </P>
+      <p class="info tit">Dificuldade:</p><p class="info ans" id="jogo">-</p>
+      <p class="info tit">Tentativas:</p><p class="info ans" id="tentativas">-</p>
+      <p class="info tit">Pontos:</p><p class="info ans" id="pts">-</p><br>
+
+      <input type="text" required="required" id="word" class="inputBox" placeholder="digite uma palavra" autocomplete="off">
+      <button type="submit" id="send" value="" class="send" onclick="Send()"></button>
+      
+      <div id="last" class="last"></div>
+      <div id="tipWords" class="tipWords">
+        <div class="howTo">
+          <p>
+            <span>Como jogar:</span><br>
+          </p>
+          <p>
+            Digite palavras relacionadas aos pilares dos maias. <span class="importante" style="color: red;  font-size: 12px;">Importante:</span> pode ser digitado mais de uma palavra como por exemplo, modo de produção. Tome cuidado com a pontuação!
+          </p>
+          <br>         
+          <p>
+            <span>Como vencer:</span>
+            <br>
+          </p>
+          <p>
+            Descubra o que as palavras em verde tem em comum e se aparecer palavras vermelhas  continue tentando.Tente acerta-las antes de 10 tentativas para vencer a rodada.
+          </p>
+          <br>
+          <p>
+            <span>Exemplos:</span>
+          </p>
+          <p>
+            Guerreiros, Mesopotâmicos e Hamurabi: Assírios.
+          </p>
+        </div>
+        </div>
+        <p class="bot" id="bot">
+
+        </p>
+        <script src="script.js"></script>
+      </div>
+      <footer>
+        <span>
+          Este jogo foi desenvolvido sob repertorio de <a href="https://github.com/VictorlBueno" target="new">
+            Victor Bueno 
+          </a>para fins acadêmicos. 
+           play
+
+        </span> 
+      </footer>
+  </body>
+</html>
